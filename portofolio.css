@@ -1,0 +1,300 @@
+*{
+    box-sizing:border-box;
+}
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:whitesmoke
+}
+
+
+h2,
+h3 {
+    color: #3c636b;
+}
+
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+
+nav a:hover {
+    font-weight: bold;
+}
+
+
+.profile header {
+    text-align: center;
+}
+
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.profile img {
+    width: 200px;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    height: 150vh;
+}
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    height: 125vh;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-image: url(kikis-delivery-service-wind.gif);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    justify-content: left;
+    height: 100vh;
+   
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(246, 244, 244);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.link:hover .dropdown-content {
+    display: block;
+}
+
+.logo {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.logo span {
+  color: rgb(211, 3, 3);
+  text-shadow: 0 0 10px rgb(211, 3, 3);
+}
+
+.hamburg,
+.cancel {
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  color: white;
+  display: none;
+  font-size: clamp(2.5rem, 0.5rem + 5vw, 3rem);
+}
+
+.nav-container .links {
+  display: flex;
+}
+
+.nav-container .links a {
+  font-size: 1.2rem;
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: 550;
+  transition: 0.3s linear;
+}
+
+.nav-container .links a:hover {
+  color: rgb(211, 3, 3);
+  border-bottom: 2px solid rgb(211, 3, 3);
+}
+
+.dropdown {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  transform: translateY(-500px);
+  width: 100%;
+  height: auto;
+  backdrop-filter: blur(4px) brightness(40%);
+  box-shadow: 0 0 20px black;
+  transition: 0.2s linear;
+}
+
+.dropdown .links a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  padding: 15px 0;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s linear;
+}
+
+.dropdown .links a:hover {
+  background-color: rgb(211, 3, 3);
+}
+.bawah{
+transform: translateY(10rem);
+font-size: 30px;
+}
+
+
+nav ul {
+    padding-inline: 4rem;
+    display: flex;
+
+
+
+
+    gap: 2rem;
+}
+
+
+nav li {
+    list-style-type: none;
+}
+
+
+.alif {
+    font-size: 20px;
+}
+
+
+.kata2 {
+    font-size: 7px
+}
+
+
+nav {
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+   
+    position: sticky;
+    top: 0;
+}
+main {
+    padding: 20px;
+   
+    display: flex;
+    gap: 1.5rem;
+}
+#contect {
+flex:5;
+display: flex;
+flex-flow: column nowrap;
+gap: 1rem 2rem;
+}
+aside {
+    flex: 1;
+}
+header {
+    display: inline;
+}
+
+
+.hai{
+    transform: translateY(10rem);
+    font-size: 75px;
+}
+.card2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+.card3 {
+    font-size: 45px;
+}
+.gunting{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    height: 350px;
+    width: 350px;
+   
+}
+.kertas{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    height: 350px;
+    width: 350px;
+}
+.batu{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    height: 350px;
+    width: 350px;
+}
+.semut{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    height: 350px;
+    width: 350px;
+}
+.sertif1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    height: 350px;
+    width: 400px;
+}
+
+.sertif2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    height: 350px;
+    width: 400px;
+}
+
+
+
+
+nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+  }
+ 
+
+
+  button {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }

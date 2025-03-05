@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;   
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    color: rgb(248, 248, 248);
+    box-sizing: border-box;
+    height: 4em;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-kiri {
+   
+    display: flex;
+    gap:2.5em;
+    padding-right: 20px;
+    padding: 40px;
+    font-size:  large;
+}
+
+
+.nav-kiri li {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+.nav-kiri li a {
+    text-decoration: none;
+    color: rgb(249, 249, 249);
+}
+
+.hello{
+transform: translateY(10rem);
+font-size: 75px;
+}
+.bawah{
+transform: translateY(10rem);
+}
+
+
+
+.profile header {
+    text-align: center;
+}
+
+
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f8f8f8;
+text-align: center;
+
+}
+.container {
+width: 80%;
+margin: auto;
+background: white;
+padding: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+font-size: 32px;
+margin-bottom: 15px;
+}
+.section {
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 20px 0;
+padding: 10px 0;
+text-align: justify;
+}
+.section:nth-child(even) {
+flex-direction: row-reverse;
+}
+.section img {
+width: 50%;
+max-width: 550px;
+height: auto;
+border-radius: 8px;
+}
+.section .text {
+width: 45%;
+margin: 0 15px;
+}
+.section h2 {
+font-size: 20px;
+margin-bottom: 8px;
+}
+.section p {
+font-size: 16px;
+line-height: 1.5;
+color: #333;
+margin: 0;
+}
+
+/* Kelas untuk gambar landscape berukuran sedang */
+.section a img {
+    width: 70%; /* Atur lebar gambar menjadi 70% dari elemen induknya */
+    max-width: 700px; /* Atur lebar maksimum gambar */
+    height: auto; /* Pertahankan rasio aspek gambar */
+    border-radius: 8px; /* Tambahkan border radius untuk sudut yang melengkung */
+    display: block; /* Pastikan gambar ditampilkan sebagai blok */
+    margin: 0 auto; /* Pusatkan gambar secara horizontal */
+    margin-bottom: 10px; /* Tambahkan margin bawah untuk spasi antara gambar dan teks */
+}
