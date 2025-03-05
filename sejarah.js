@@ -22,3 +22,23 @@ sections.forEach(section => {
     observer.observe(section);
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    const images = document.querySelectorAll(".fade-in");
+    images.forEach(img => {
+        img.classList.add("visible");
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    const images = document.querySelectorAll(".fade-in");
+    const texts = document.querySelectorAll(".slide-in");
+
+    images.forEach(img => {
+        img.classList.add("visible");
+    });
+
+    texts.forEach(text => {
+        text.classList.add("visible");
+    });
+});
+

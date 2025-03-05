@@ -112,3 +112,79 @@ margin: 0;
     margin: 0 auto; /* Pusatkan gambar secara horizontal */
     margin-bottom: 10px; /* Tambahkan margin bawah untuk spasi antara gambar dan teks */
 }
+/* Animasi fade-in */
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
+/* Animasi slide-in */
+.slide-in {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 1s ease-in, opacity 1s ease-in;
+}
+
+.slide-in.visible {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+article img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.image-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.image-link img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.image-link img:hover {
+    transform: scale(1.05); /* Tambahkan efek zoom saat hover */
+}
+/* Kelas untuk gambar landscape berukuran sedang */
+.landscape-medium {
+    width: 100%; /* Atur lebar gambar menjadi 100% dari elemen induknya */
+    max-width: 700px; /* Atur lebar maksimum gambar */
+    height: auto; /* Pertahankan rasio aspek gambar */
+    border-radius: 8px; /* Tambahkan border radius untuk sudut yang melengkung */
+    display: block; /* Pastikan gambar ditampilkan sebagai blok */
+    margin: 0 auto; /* Pusatkan gambar secara horizontal */
+    margin-bottom: 10px; /* Tambahkan margin bawah untuk spasi antara gambar dan teks */
+}
+
+/* Kelas untuk gambar landscape berukuran besar */
+.landscape-large {
+    width: 100%; /* Atur lebar gambar menjadi 100% dari elemen induknya */
+    max-width: 1000px; /* Atur lebar maksimum gambar */
+    height: auto; /* Pertahankan rasio aspek gambar */
+    border-radius: 8px; /* Tambahkan border radius untuk sudut yang melengkung */
+    display: block; /* Pastikan gambar ditampilkan sebagai blok */
+    margin: 0 auto; /* Pusatkan gambar secara horizontal */
+    margin-bottom: 10px; /* Tambahkan margin bawah untuk spasi antara gambar dan teks */
+}
+.zoom-in {
+    transform: scale(0.5);
+    opacity: 0;
+    transition: transform 1s ease-in, opacity 1s ease-in;
+}
+
+.zoom-in.visible {
+    transform: scale(1);
+    opacity: 1;
+}
